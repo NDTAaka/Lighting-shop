@@ -51,5 +51,5 @@ app.use((error, req, res) => {
         }
     })
 });
-console.log(MBBank.getTransactionsHistory());
+
 export default app;

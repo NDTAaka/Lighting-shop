@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-12 text-gray-700">
           {/* Left Section */}
           <div>
-            <h3 className="text-2xl font-bold text-gray-900">LUMO</h3>
+            <h3 className="text-2xl font-bold text-gray-900">NDTA</h3>
             <p className="mt-2 text-sm">We have a vision to make lighting evenly distributed to all parts of the earth.</p>
           </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 flex justify-between items-center">
-          <div className="text-sm text-gray-600">© Copyright LKT. All rights reserved</div>
+          <div className="text-sm text-gray-600">© Copyright NDTA. All rights reserved</div>
         </div>
       </div>
     </footer>

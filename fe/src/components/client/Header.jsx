@@ -163,7 +163,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="block">
               <h1 className="text-3xl md:text-4xl font-krona text-gray-800 hover:text-gray-600 transition-colors duration-300">
-                Lumo
+                NDTA-Shop
               </h1>
             </Link>
           </div>

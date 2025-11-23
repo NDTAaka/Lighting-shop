@@ -1,7 +1,7 @@
 services:
-  mongodb:
+  mongodb1:
     image: mongo:latest
-    container_name: mongodb_lights_store
+    container_name: mongodb_lights_store1
     ports:
       - "27017:27017"
     volumes:

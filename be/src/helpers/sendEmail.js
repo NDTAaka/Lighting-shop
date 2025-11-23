@@ -27,7 +27,7 @@ export default async function sendEmail(
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LUMO Light Store - Verification Code</title>
+    <title>NDTA-Shop - Verification Code</title>
     <style>
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -127,14 +127,14 @@ export default async function sendEmail(
     <div class="container">
         <div class="header">
             <div class="logo">
-                <span class="light-icon">💡</span> LUMO LIGHT STORE
+                <span class="light-icon">💡</span> NDTA-Shop
             </div>
         </div>
         <div class="content">
             <h2>Xác nhận tài khoản của bạn</h2>
             <div class="message">
                 <p>Chào bạn,</p>
-                <p>Cảm ơn bạn đã đăng ký tài khoản tại LUMO Light Store. Để hoàn tất quá trình đăng ký, vui lòng sử dụng mã xác nhận dưới đây:</p>
+                <p>Cảm ơn bạn đã đăng ký tài khoản tại NDTA-Shop. Để hoàn tất quá trình đăng ký, vui lòng sử dụng mã xác nhận dưới đây:</p>
             </div>
             <div class="verification-code">${verificationCode}</div>
             <div class="message">
@@ -146,9 +146,9 @@ export default async function sendEmail(
             </div>
         </div>
         <div class="footer">
-            <p>&copy; 2025 LUMO Light Store. Tất cả các quyền được bảo lưu.</p>
-            <p>Địa chỉ: Học viện công nghệ bưu chính</p>
-            <p>Email: toanxm1509@gmail.com | Điện thoại: (+84) 343 150904</p>
+            <p>&copy; 2025 NDTA Light Store. Tất cả các quyền được bảo lưu.</p>
+            <p>Địa chỉ: Đại Học Điện Lực</p>
+            <p>Email: thaianhk47@gmail.com | Điện thoại: (+84) 378 541 743</p>
         </div>
     </div>
 </body>
@@ -156,7 +156,7 @@ export default async function sendEmail(
 `;
 
     const info = await transporter.sendMail({
-      from: '"LUMO Light Store" <' + process.env.EMAIL_USER + ">",
+      from: '"NDTA-Shop" <' + process.env.EMAIL_USER + ">",
       to: email_recipient_string,
       subject: subject,
       text: `${verificationCode}`,
